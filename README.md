@@ -2,6 +2,7 @@
 CODHB is a web-based number converter that seamlessly transforms binary, decimal, and hexadecimal numbers. Featuring a user-friendly interface with dropdown selections for input and target formats, CODHB provides instant conversion results.
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Harshit2012/CODHB?tab=MIT-1-ov-file#readme)
+![GitHub Release](https://img.shields.io/github/v/release/harshit2012/codhb)
 ![Forks](https://img.shields.io/github/forks/harshit2012/codhb)
 ![Stars](https://img.shields.io/github/stars/harshit2012/codhb)
 
