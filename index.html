@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg">
+    <title>CODHB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" id="logo">
+        <h1>CODHB</h1>
+        <div class="conversion">
+            <label for="formatFrom">Convert from:</label>
+            <select id="formatFrom">
+                <option value="binary">Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+            <label for="formatTo">to:</label>
+            <select id="formatTo">
+                <option value="binary">Binary</option>
+                <option value="decimal">Decimal</option>
+                <option value="hexadecimal">Hexadecimal</option>
+            </select>
+            <input type="text" id="inputNumber" placeholder="Enter a number">
+            <br><br><br>
+            <button onclick="convert()">Convert</button>
+        </div>
+        <div class="formula">
+            <label id="conversionLabel"></label>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
